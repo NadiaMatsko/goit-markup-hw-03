@@ -334,7 +334,7 @@ a{
     width: calc(100% / 3 -30px);
     margin-left: 30px;
     }
-   .about-link :first-child {margin-left: 0;
+   .about-link:first-child {margin-left: 0;
    }
 .team-name + .team-name {margin-left: 30px;}
 
@@ -359,7 +359,7 @@ a{
 }
 .portfolio{
     display: flex;
-    padding-top: 44px;
+    padding-top: 94px;
     padding-bottom: 94px;    
     }
 .portolio-list{
@@ -393,11 +393,11 @@ justify-content: center;
     justify-content: center;
     margin-left: 30px;
     margin-bottom: 30px;
+    border-bottom: 1px solid #ECECEC;
      
 }
 .portf-name + .portf-name { margin-left: 30px;
-   border-bottom: 1px solid #EEEEEE; 
-     
+       
 }
 .portf-item {
     display: flex;
@@ -418,7 +418,7 @@ justify-content: center;
     .footer-adress:last-child {
         margin-bottom: 0;  
         }
-.img{
+img{
     display: block;
     height: auto;
     max-width: 100%;
@@ -433,7 +433,7 @@ justify-content: center;
         }
 .portf-paragraph{
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 24px;
   
 }  
 padding-left: 24px;
